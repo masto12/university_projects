@@ -1,0 +1,15 @@
+This project is done as part of AAIB course.
+The project is a webpage for classification of user arm movement based on sensor data received from Android smartphone, by using Sensorstreamer application.
+
+Work flow for running the webpage successfuly
+
+1) Upload code to Linux virtual machine (e.g. VirtualBox)
+2) In main.py code modify in row 59 IP Address to match the current Wi-Fi ip address
+3) In virutal machine, ensure all libraries required are installed. If not please install them (the libraries are visible in main.py file)
+3) Connect smartphone to same Wi-Fi network
+4) Download Sensorstreamer app for Android phone
+5) Select in packages accelerometer, gyroscope and timestamp
+6) Define port as 4242
+7) Start steaming data
+8) Use flask run --host: <Virtual Machine Ip address> on virtual machine
+9) Now you can access the webpage from device connected to same network
